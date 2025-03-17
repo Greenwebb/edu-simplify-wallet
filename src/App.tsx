@@ -17,6 +17,7 @@ import {
   Shield,
   TrendingUp,
 } from 'lucide-react';
+import Hero from './componenets/hero';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       </header>
 
       {/* Hero Section */}
+      <Hero />
       <section className="pt-32 pb-20">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center gap-12">

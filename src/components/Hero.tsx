@@ -1,6 +1,7 @@
 
 import { ArrowRight, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -30,9 +31,11 @@ const Hero = () => {
                 <Download size={18} className="mr-2" />
                 Download EduWallet
               </Button>
-              <Button size="lg" variant="outline" className="rounded-full py-6 text-base">
-                Learn More
-                <ArrowRight size={18} className="ml-2" />
+              <Button size="lg" variant="outline" className="rounded-full py-6 text-base" asChild>
+                <Link to="/features">
+                  Learn More
+                  <ArrowRight size={18} className="ml-2" />
+                </Link>
               </Button>
             </div>
 

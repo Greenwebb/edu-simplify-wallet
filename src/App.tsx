@@ -291,11 +291,11 @@ function App() {
                   className="flex items-center text-white hover:text-white transition-colors"
                 >
                   <Phone className="h-5 w-5 mr-3" />
-                  <span>+1 234 567 890</span>
+                  <span>+2609782927372</span>
                 </a>
                 <div className="flex items-center text-white">
                   <MapPin className="h-5 w-5 mr-3" />
-                  <span>123 Finance Street, City</span>
+                  <span>123 Finance Street, Lusaka, Zambia</span>
                 </div>
               </div>
             </div>
